@@ -1,8 +1,8 @@
 name: Update Json Feed
 
 on:
-  schedule:
-    - cron: '30 10,22 * * *'
+ # schedule:
+   # - cron: '30 10,22 * * *'
     # Scheduled to run at 10:30 AM and 10:30 PM every day in America/Los_Angeles timezone
   workflow_dispatch:
 
